@@ -1,7 +1,7 @@
 def modality(sequence):
-    maxes = 0
+    maxe = 0
     for element in sequence:
-        if sequence.count(element) > maxes:
-            maxes = element
+        if sequence.count(element) > maxe:
+            maxe = element
 
-    return maxes
+    return maxe
